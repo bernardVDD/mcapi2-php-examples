@@ -1,0 +1,20 @@
+{
+    "name": "mcapi_php_example",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.cakephp.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://bitbucket.org/mailchimp/mailchimp-api-php"
+        }
+    ],
+    "require": {
+        "pear-cakephp/cakephp": ">=2.3.4",
+        "mailchimp/mailchimp": ">=2.0.0"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}

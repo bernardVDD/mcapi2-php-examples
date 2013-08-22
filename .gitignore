@@ -1,0 +1,4 @@
+tmp/*
+Vendor
+composer.phar
+composer.lock
